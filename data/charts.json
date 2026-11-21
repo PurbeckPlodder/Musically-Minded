@@ -1,0 +1,162 @@
+[
+  {
+    "year": 1980,
+    "chartDate": "1980-11-16",
+    "tracks": [
+      { "position": 1, "title": "The Tide Is High", "artist": "Blondie" },
+      { "position": 2, "title": "Super Trouper", "artist": "ABBA" },
+      { "position": 3, "title": "Woman in Love", "artist": "Barbra Streisand" },
+      { "position": 4, "title": "I Could Be So Good for You", "artist": "Dennis Waterman" },
+      { "position": 5, "title": "Fashion", "artist": "David Bowie" },
+      { "position": 6, "title": "Never Knew Love Like This Before", "artist": "Stephanie Mills" },
+      { "position": 7, "title": "Special Brew", "artist": "Bad Manners" },
+      { "position": 8, "title": "Dog Eat Dog", "artist": "Adam & the Ants" },
+      { "position": 9, "title": "Enola Gay", "artist": "Orchestral Manoeuvres in the Dark" },
+      { "position": 10, "title": "What You're Proposing", "artist": "Status Quo" }
+    ]
+  },
+  {
+    "year": 1981,
+    "chartDate": "1981-11-15",
+    "tracks": [
+      { "position": 1, "title": "Under Pressure", "artist": "Queen and David Bowie" },
+      { "position": 2, "title": "Every Little Thing She Does Is Magic", "artist": "The Police" },
+      { "position": 3, "title": "Begin the Beguine (Volver a Empezar)", "artist": "Julio Iglesias" },
+      { "position": 4, "title": "Favourite Shirts (Boy Meets Girl)", "artist": "Haircut 100" },
+      { "position": 5, "title": "Joan of Arc", "artist": "Orchestral Manoeuvres in the Dark" },
+      { "position": 6, "title": "When She Was My Girl", "artist": "The Four Tops" },
+      { "position": 7, "title": "Physical", "artist": "Olivia Newton-John" },
+      { "position": 8, "title": "Tonight I'm Yours (Don't Hurt Me)", "artist": "Rod Stewart" },
+      { "position": 9, "title": "Let's Groove", "artist": "Earth, Wind & Fire" },
+      { "position": 10, "title": "Labelled with Love", "artist": "Squeeze" }
+    ]
+  },
+  {
+    "year": 1982,
+    "chartDate": "1982-11-21",
+    "tracks": [
+      { "position": 1, "title": "I Don't Wanna Dance", "artist": "Eddy Grant" },
+      { "position": 2, "title": "Mirror Man", "artist": "The Human League" },
+      { "position": 3, "title": "Heartbreaker", "artist": "Dionne Warwick" },
+      { "position": 4, "title": "Young Guns (Go for It)", "artist": "Wham!" },
+      { "position": 5, "title": "(Sexual) Healing", "artist": "Marvin Gaye" },
+      { "position": 6, "title": "Mad World", "artist": "Tears for Fears" },
+      { "position": 7, "title": "Living on the Ceiling", "artist": "Blancmange" },
+      { "position": 8, "title": "Theme from Harry's Game", "artist": "Clannad" },
+      { "position": 9, "title": "Save Your Love", "artist": "Renee and Renato" },
+      { "position": 10, "title": "Maneater", "artist": "Daryl Hall and John Oates" }
+    ]
+  },
+  {
+    "year": 1983,
+    "chartDate": "1983-11-20",
+    "tracks": [
+      { "position": 1, "title": "Uptown Girl", "artist": "Billy Joel" },
+      { "position": 2, "title": "Say Say Say", "artist": "Paul McCartney and Michael Jackson" },
+      { "position": 3, "title": "Cry Just a Little Bit", "artist": "Shakin' Stevens" },
+      { "position": 4, "title": "Never Never", "artist": "Assembly" },
+      { "position": 5, "title": "Love of the Common People", "artist": "Paul Young" },
+      { "position": 6, "title": "All Night Long (All Night)", "artist": "Lionel Richie" },
+      { "position": 7, "title": "The Sun and the Rain", "artist": "Madness" },
+      { "position": 8, "title": "The Love Cats", "artist": "The Cure" },
+      { "position": 9, "title": "Calling Your Name", "artist": "Marilyn" },
+      { "position": 10, "title": "Thriller", "artist": "Michael Jackson" }
+    ]
+  },
+  {
+    "year": 1984,
+    "chartDate": "1984-11-18",
+    "tracks": [
+      { "position": 1, "title": "I Feel for You", "artist": "Chaka Khan" },
+      { "position": 2, "title": "I Should Have Known Better", "artist": "Jim Diamond" },
+      { "position": 3, "title": "The Wild Boys", "artist": "Duran Duran" },
+      { "position": 4, "title": "Never Ending Story", "artist": "Limahl" },
+      { "position": 5, "title": "The Riddle", "artist": "Nik Kershaw" },
+      { "position": 6, "title": "Caribbean Queen (No More Love on the Run)", "artist": "Billy Ocean" },
+      { "position": 7, "title": "Sex Crime (Nineteen Eighty Four)", "artist": "Eurythmics" },
+      { "position": 8, "title": "Hard Habit to Break", "artist": "Chicago" },
+      { "position": 9, "title": "Freedom", "artist": "Wham!" },
+      { "position": 10, "title": "The Wanderer", "artist": "Status Quo" }
+    ]
+  },
+  {
+    "year": 1985,
+    "chartDate": "1985-11-17",
+    "tracks": [
+      { "position": 1, "title": "A Good Heart", "artist": "Feargal Sharkey" },
+      { "position": 2, "title": "I'm Your Man", "artist": "Wham!" },
+      { "position": 3, "title": "Don't Break My Heart", "artist": "UB40" },
+      { "position": 4, "title": "The Power of Love", "artist": "Jennifer Rush" },
+      { "position": 5, "title": "Take on Me", "artist": "A-ha" },
+      { "position": 6, "title": "Nikita", "artist": "Elton John" },
+      { "position": 7, "title": "One Vision", "artist": "Queen" },
+      { "position": 8, "title": "Something About You", "artist": "Level 42" },
+      { "position": 9, "title": "Sisters Are Doin' It for Themselves", "artist": "Eurythmics and Aretha Franklin" },
+      { "position": 10, "title": "Road to Nowhere", "artist": "Talking Heads" }
+    ]
+  },
+  {
+    "year": 1986,
+    "chartDate": "1986-11-16",
+    "tracks": [
+      { "position": 1, "title": "Take My Breath Away (Love Theme from 'Top Gun')", "artist": "Berlin" },
+      { "position": 2, "title": "You Keep Me Hangin' On", "artist": "Kim Wilde" },
+      { "position": 3, "title": "Showing Out (Get Fresh at the Weekend)", "artist": "Mel and Kim" },
+      { "position": 4, "title": "Breakout", "artist": "Swing Out Sister" },
+      { "position": 5, "title": "The Final Countdown", "artist": "Europe" },
+      { "position": 6, "title": "Through the Barricades", "artist": "Spandau Ballet" },
+      { "position": 7, "title": "Livin' on a Prayer", "artist": "Bon Jovi" },
+      { "position": 8, "title": "Walk Like an Egyptian", "artist": "The Bangles" },
+      { "position": 9, "title": "Don't Give Up", "artist": "Peter Gabriel and Kate Bush" },
+      { "position": 10, "title": "For America", "artist": "Red Box" }
+    ]
+  },
+  {
+    "year": 1987,
+    "chartDate": "1987-11-15",
+    "tracks": [
+      { "position": 1, "title": "China in Your Hand", "artist": "T'Pau" },
+      { "position": 2, "title": "Got My Mind Set on You", "artist": "George Harrison" },
+      { "position": 3, "title": "Whenever You Need Somebody", "artist": "Rick Astley" },
+      { "position": 4, "title": "Never Can Say Goodbye", "artist": "The Communards" },
+      { "position": 5, "title": "My Baby Just Cares for Me", "artist": "Nina Simone" },
+      { "position": 6, "title": "(I've Had) The Time of My Life", "artist": "Bill Medley and Jennifer Warnes" },
+      { "position": 7, "title": "You Win Again", "artist": "Bee Gees" },
+      { "position": 8, "title": "Jack Mix IV", "artist": "Mirage" },
+      { "position": 9, "title": "So Emotional", "artist": "Whitney Houston" },
+      { "position": 10, "title": "Barcelona", "artist": "Freddie Mercury and Montserrat Caballe" }
+    ]
+  },
+  {
+    "year": 1988,
+    "chartDate": "1988-11-20",
+    "tracks": [
+      { "position": 1, "title": "First Time", "artist": "Robin Beck" },
+      { "position": 2, "title": "Need You Tonight", "artist": "INXS" },
+      { "position": 3, "title": "Missing You", "artist": "Chris de Burgh" },
+      { "position": 4, "title": "Twist and Shout", "artist": "Salt-N-Pepa" },
+      { "position": 5, "title": "Stand Up for Your Love Rights", "artist": "Yazz" },
+      { "position": 6, "title": "The Clairvoyant", "artist": "Iron Maiden" },
+      { "position": 7, "title": "Left to My Own Devices", "artist": "Pet Shop Boys" },
+      { "position": 8, "title": "Real Gone Kid", "artist": "Deacon Blue" },
+      { "position": 9, "title": "He Ain't No Competition", "artist": "Brother Beyond" },
+      { "position": 10, "title": "Je Ne Sais Pas Pourquoi", "artist": "Kylie Minogue" }
+    ]
+  },
+  {
+    "year": 1989,
+    "chartDate": "1989-11-19",
+    "tracks": [
+      { "position": 1, "title": "You Got It (The Right Stuff)", "artist": "New Kids on the Block" },
+      { "position": 2, "title": "All Around the World", "artist": "Lisa Stansfield" },
+      { "position": 3, "title": "Don't Know Much", "artist": "Linda Ronstadt and Aaron Neville" },
+      { "position": 4, "title": "Another Day in Paradise", "artist": "Phil Collins" },
+      { "position": 5, "title": "Never Too Late", "artist": "Kylie Minogue" },
+      { "position": 6, "title": "Infinite Dreams (Live)", "artist": "Iron Maiden" },
+      { "position": 7, "title": "Homely Girl", "artist": "UB40" },
+      { "position": 8, "title": "Girl I'm Gonna Miss You", "artist": "Milli Vanilli" },
+      { "position": 9, "title": "I Feel the Earth Move", "artist": "Martika" },
+      { "position": 10, "title": "Grand Piano", "artist": "Mixmaster" }
+    ]
+  }
+]
