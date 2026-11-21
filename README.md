@@ -1,6 +1,6 @@
 # Chart Rewind
 
-A Next.js music quiz built around the UK Official Singles Chart weeks that include November 21 for each year from 1980 to 1989. Each round plays an Apple Music/iTunes 30-second preview; the player guesses the song, and the answer and chart position are revealed after 30 seconds.
+A Next.js music quiz built around the UK Official Singles Chart weeks that include November 21 for each year from 1980 to 1999. Each round plays an Apple Music/iTunes preview; choose a 5–30 second round length, guess the song, or skip to reveal the answer and chart position immediately.
 
 ## Run locally
 

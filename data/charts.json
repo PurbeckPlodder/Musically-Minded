@@ -158,5 +158,165 @@
       { "position": 9, "title": "I Feel the Earth Move", "artist": "Martika" },
       { "position": 10, "title": "Grand Piano", "artist": "Mixmaster" }
     ]
+  },
+  {
+    "year": 1990,
+    "chartDate": "1990-11-18",
+    "tracks": [
+      { "position": 1, "title": "Unchained Melody {1990}", "artist": "The Righteous Brothers" },
+      { "position": 2, "title": "Don't Worry", "artist": "Kim Appleby" },
+      { "position": 3, "title": "Ice Ice Baby", "artist": "Vanilla Ice" },
+      { "position": 4, "title": "Fog on the Tyne (Revisited)", "artist": "Gazza and Lindisfarne" },
+      { "position": 5, "title": "Unbelievable", "artist": "EMF" },
+      { "position": 6, "title": "Fantasy", "artist": "Black Box" },
+      { "position": 7, "title": "I'll Be Your Baby Tonight", "artist": "Robert Palmer and UB40" },
+      { "position": 8, "title": "To Love Somebody", "artist": "Jimmy Somerville" },
+      { "position": 9, "title": "A Little Time", "artist": "The Beautiful South" },
+      { "position": 10, "title": "Cubik/Olympic", "artist": "808 State" }
+    ]
+  },
+  {
+    "year": 1991,
+    "chartDate": "1991-11-17",
+    "tracks": [
+      { "position": 1, "title": "Black or White", "artist": "Michael Jackson" },
+      { "position": 2, "title": "Dizzy", "artist": "Vic Reeves and The Wonder Stuff" },
+      { "position": 3, "title": "Get Ready for This", "artist": "2 Unlimited" },
+      { "position": 4, "title": "Activ 8 (Come with Me)", "artist": "Altern 8" },
+      { "position": 5, "title": "Is There Anybody Out There?", "artist": "Bassheads" },
+      { "position": 6, "title": "Rhythm Is a Mystery {1991 Re-release}", "artist": "K-Klass" },
+      { "position": 7, "title": "If You Were with Me Now", "artist": "Kylie Minogue and Keith Washington" },
+      { "position": 8, "title": "Killer (EP)", "artist": "Seal" },
+      { "position": 9, "title": "Playing with Knives", "artist": "Bizarre Inc" },
+      { "position": 10, "title": "When a Man Loves a Woman", "artist": "Michael Bolton" }
+    ]
+  },
+  {
+    "year": 1992,
+    "chartDate": "1992-11-15",
+    "tracks": [
+      { "position": 1, "title": "Would I Lie to You", "artist": "Charles and Eddie" },
+      { "position": 2, "title": "End of the Road", "artist": "Boyz II Men" },
+      { "position": 3, "title": "People Everyday", "artist": "Arrested Development" },
+      { "position": 4, "title": "I Will Always Love You", "artist": "Whitney Houston" },
+      { "position": 5, "title": "Never Let Her Slip Away", "artist": "Undercover" },
+      { "position": 6, "title": "Boss Drum", "artist": "The Shamen" },
+      { "position": 7, "title": "Invisible Touch (Live)", "artist": "Genesis" },
+      { "position": 8, "title": "Be My Baby", "artist": "Vanessa Paradis" },
+      { "position": 9, "title": "Temptation (Brothers in Rhythm Remix)", "artist": "Heaven 17" },
+      { "position": 10, "title": "Run to You", "artist": "Rage" }
+    ]
+  },
+  {
+    "year": 1993,
+    "chartDate": "1993-11-21",
+    "tracks": [
+      { "position": 1, "title": "I'd Do Anything for Love (But I Won't Do That)", "artist": "Meat Loaf" },
+      { "position": 2, "title": "True Love", "artist": "Elton John and Kiki Dee" },
+      { "position": 3, "title": "Please Forgive Me", "artist": "Bryan Adams" },
+      { "position": 4, "title": "Don't Be a Stranger", "artist": "Dina Carroll" },
+      { "position": 5, "title": "Got to Get It", "artist": "Culture Beat" },
+      { "position": 6, "title": "Again", "artist": "Janet Jackson" },
+      { "position": 7, "title": "Runaway Train {1993 Re-release}", "artist": "Soul Asylum" },
+      { "position": 8, "title": "Feels Like Heaven", "artist": "Urban Cookie Collective" },
+      { "position": 9, "title": "Hero", "artist": "Mariah Carey" },
+      { "position": 10, "title": "Long Train Runnin'", "artist": "The Doobie Brothers" }
+    ]
+  },
+  {
+    "year": 1994,
+    "chartDate": "1994-11-20",
+    "tracks": [
+      { "position": 1, "title": "Let Me Be Your Fantasy", "artist": "Baby D" },
+      { "position": 2, "title": "Baby Come Back", "artist": "Pato Banton" },
+      { "position": 3, "title": "Another Night", "artist": "The Real McCoy" },
+      { "position": 4, "title": "All I Wanna Do", "artist": "Sheryl Crow" },
+      { "position": 5, "title": "We Have All the Time in the World", "artist": "Louis Armstrong" },
+      { "position": 6, "title": "Sight for Sore Eyes", "artist": "M People" },
+      { "position": 7, "title": "Oh Baby I...", "artist": "Eternal" },
+      { "position": 8, "title": "Crocodile Shoes", "artist": "Jimmy Nail" },
+      { "position": 9, "title": "Always", "artist": "Bon Jovi" },
+      { "position": 10, "title": "Spin the Black Circle", "artist": "Pearl Jam" }
+    ]
+  },
+  {
+    "year": 1995,
+    "chartDate": "1995-11-19",
+    "tracks": [
+      { "position": 1, "title": "I Believe/Up on the Roof", "artist": "Robson & Jerome" },
+      { "position": 2, "title": "Gangsta's Paradise", "artist": "Coolio featuring L.V." },
+      { "position": 3, "title": "Missing", "artist": "Everything but the Girl" },
+      { "position": 4, "title": "Wonderwall", "artist": "Oasis" },
+      { "position": 5, "title": "The Universal", "artist": "Blur" },
+      { "position": 6, "title": "You'll See", "artist": "Madonna" },
+      { "position": 7, "title": "Anywhere Is", "artist": "Enya" },
+      { "position": 8, "title": "Father and Son", "artist": "Boyzone" },
+      { "position": 9, "title": "It's Oh So Quiet", "artist": "Björk" },
+      { "position": 10, "title": "Lie to Me", "artist": "Bon Jovi" }
+    ]
+  },
+  {
+    "year": 1996,
+    "chartDate": "1996-11-17",
+    "tracks": [
+      { "position": 1, "title": "Breathe", "artist": "The Prodigy" },
+      { "position": 2, "title": "What's Love Got to Do with It", "artist": "Warren G featuring Adina Howard" },
+      { "position": 3, "title": "What Becomes of the Broken Hearted", "artist": "Robson & Jerome" },
+      { "position": 4, "title": "Un-Break My Heart", "artist": "Toni Braxton" },
+      { "position": 5, "title": "Hillbilly Rock Hillbilly Roll", "artist": "The Woolpackers" },
+      { "position": 6, "title": "One & One", "artist": "Robert Miles featuring Maria Nayler" },
+      { "position": 7, "title": "Govinda", "artist": "Kula Shaker" },
+      { "position": 8, "title": "If You Ever", "artist": "East 17 featuring Gabrielle" },
+      { "position": 9, "title": "Say You'll Be There", "artist": "Spice Girls" },
+      { "position": 10, "title": "Milk", "artist": "Garbage featuring Tricky" }
+    ]
+  },
+  {
+    "year": 1997,
+    "chartDate": "1997-11-16",
+    "tracks": [
+      { "position": 1, "title": "Barbie Girl", "artist": "Aqua" },
+      { "position": 2, "title": "Torn", "artist": "Natalie Imbruglia" },
+      { "position": 3, "title": "Never Ever", "artist": "All Saints" },
+      { "position": 4, "title": "Tell Him", "artist": "Barbra Streisand and Céline Dion" },
+      { "position": 5, "title": "I Will Come to You", "artist": "Hanson" },
+      { "position": 6, "title": "You Sexy Thing", "artist": "Hot Chocolate" },
+      { "position": 7, "title": "Something About the Way You Look/Candle in the Wind", "artist": "Elton John" },
+      { "position": 8, "title": "Help the Aged", "artist": "Pulp" },
+      { "position": 9, "title": "Better Day", "artist": "Ocean Colour Scene" },
+      { "position": 10, "title": "Spice Up Your Life", "artist": "Spice Girls" }
+    ]
+  },
+  {
+    "year": 1998,
+    "chartDate": "1998-11-15",
+    "tracks": [
+      { "position": 1, "title": "Believe", "artist": "Cher" },
+      { "position": 2, "title": "Heartbeat/Tragedy", "artist": "Steps" },
+      { "position": 3, "title": "The Bartender and the Thief", "artist": "Stereophonics" },
+      { "position": 4, "title": "If You Buy This Record Your Life Will Be", "artist": "The Tamperer featuring Maya" },
+      { "position": 5, "title": "Each Time", "artist": "E-17" },
+      { "position": 6, "title": "Would You...?", "artist": "Touch and Go" },
+      { "position": 7, "title": "Sit Down", "artist": "James" },
+      { "position": 8, "title": "I Don't Want to Miss a Thing", "artist": "Aerosmith" },
+      { "position": 9, "title": "Falling in Love Again", "artist": "Eagle-Eye Cherry" },
+      { "position": 10, "title": "Another One Bites the Dust", "artist": "Queen, Wyclef Jean, Pras and Free" }
+    ]
+  },
+  {
+    "year": 1999,
+    "chartDate": "1999-11-21",
+    "tracks": [
+      { "position": 1, "title": "King of My Castle", "artist": "Wamdue Project" },
+      { "position": 2, "title": "The Millennium Prayer", "artist": "Cliff Richard" },
+      { "position": 3, "title": "She's the One/It's Only Us", "artist": "Robbie Williams" },
+      { "position": 4, "title": "Will 2K", "artist": "Will Smith" },
+      { "position": 5, "title": "If I Could Turn Back the Hands of Time", "artist": "R. Kelly" },
+      { "position": 6, "title": "I Try", "artist": "Macy Gray" },
+      { "position": 7, "title": "Lift Me Up", "artist": "Geri Halliwell" },
+      { "position": 8, "title": "Keep on Movin'", "artist": "Five" },
+      { "position": 9, "title": "Everytime/Ready or Not", "artist": "A1" },
+      { "position": 10, "title": "Why", "artist": "Glamma Kid" }
+    ]
   }
 ]

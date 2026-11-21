@@ -1,6 +1,6 @@
 "use client";
 
-import { useEffect, useMemo, useState } from "react";
+import { useCallback, useEffect, useMemo, useRef, useState } from "react";
 import charts from "../data/charts.json";
 
 type Chart = (typeof charts)[number];
@@ -18,7 +18,7 @@ type AppleSearchResponse = {
   results: AppleTrack[];
 };
 
-const ROUND_SECONDS = 30;
+const DEFAULT_DURATION_SECONDS = 30;
 
 function normalizeGuess(value: string) {
   return value.toLocaleLowerCase("en").replace(/[^a-z0-9]/g, "");
@@ -73,7 +73,8 @@ export default function Home() {
   const [phase, setPhase] = useState<Phase>("welcome");
   const [rounds, setRounds] = useState<Track[]>([]);
   const [roundIndex, setRoundIndex] = useState(0);
-  const [remaining, setRemaining] = useState(ROUND_SECONDS);
+  const [durationSeconds, setDurationSeconds] = useState(DEFAULT_DURATION_SECONDS);
+  const [remaining, setRemaining] = useState(DEFAULT_DURATION_SECONDS);
   const [guess, setGuess] = useState("");
   const [submitted, setSubmitted] = useState(false);
   const [correct, setCorrect] = useState(0);
@@ -82,10 +83,20 @@ export default function Home() {
   const [previewStatus, setPreviewStatus] = useState<
     "loading" | "ready" | "missing" | "error"
   >("loading");
+  const audioRef = useRef<HTMLAudioElement>(null);
 
   const chart = charts.find((item) => item.year === selectedYear) as Chart;
   const track = rounds[roundIndex];
   const progress = phase === "welcome" ? 0 : Math.min(roundIndex + 1, 10);
+  const revealAnswer = useCallback(() => {
+    const player = audioRef.current;
+    if (player) {
+      player.pause();
+      player.currentTime = 0;
+    }
+    setRemaining(0);
+    setPhase("reveal");
+  }, []);
   const chartWeekLabel = useMemo(() => {
     const weekStart = new Date(`${chart.chartDate}T12:00:00`);
     const weekEnd = new Date(weekStart);
@@ -99,7 +110,7 @@ export default function Home() {
   useEffect(() => {
     if (phase !== "playing") return;
     if (remaining === 0) {
-      setPhase("reveal");
+      revealAnswer();
       return;
     }
 
@@ -108,7 +119,7 @@ export default function Home() {
       1000,
     );
     return () => window.clearTimeout(timeout);
-  }, [phase, remaining]);
+  }, [phase, remaining, revealAnswer]);
 
   useEffect(() => {
     if (phase !== "playing" || !track) return;
@@ -135,7 +146,7 @@ export default function Home() {
   function startQuiz() {
     setRounds(shuffleTracks(chart.tracks));
     setRoundIndex(0);
-    setRemaining(ROUND_SECONDS);
+    setRemaining(durationSeconds);
     setGuess("");
     setSubmitted(false);
     setCorrect(0);
@@ -157,7 +168,7 @@ export default function Home() {
       return;
     }
     setRoundIndex((index) => index + 1);
-    setRemaining(ROUND_SECONDS);
+    setRemaining(durationSeconds);
     setGuess("");
     setSubmitted(false);
     setPhase("playing");
@@ -174,22 +185,22 @@ export default function Home() {
           <span>CHART REWIND</span>
         </a>
         <span className="topbar-note">A little trip through the UK charts</span>
-        <span className="decade-pill">1980 — 1989</span>
+        <span className="decade-pill">1980 — 1999</span>
       </header>
 
       <section className="hero">
         <div className="hero-copy">
-          <p className="eyebrow"><span className="eyebrow-dot" /> THIS DAY IN THE 80S</p>
-          <h1>How well do<br />you know the <span>80s?</span></h1>
+          <p className="eyebrow"><span className="eyebrow-dot" /> THIS DAY IN THE 80S &amp; 90S</p>
+          <h1>How well do<br />you know the <span>80s &amp; 90s?</span></h1>
           <p className="hero-intro">
-            Ten UK chart hits from the week covering November 21. Thirty
-            seconds each. Name that tune before the reveal.
+            Ten UK chart hits from the week covering November 21. Choose your
+            clip length and name that tune before the reveal.
           </p>
           <div className="hero-meta">
             <span className="meta-icon" aria-hidden="true">♫</span>
             <span>Official chart history</span>
             <span className="meta-divider" />
-            <span>30-second song previews</span>
+            <span>Apple Music previews</span>
           </div>
         </div>
         <div className="hero-art" aria-hidden="true">
@@ -203,7 +214,7 @@ export default function Home() {
           </div>
           <div className="spark spark-one">✳</div>
           <div className="spark spark-two">✳</div>
-          <div className="art-caption">SIDE A<br /><span>1980–89</span></div>
+          <div className="art-caption">SIDE A<br /><span>1980–99</span></div>
         </div>
       </section>
 
@@ -246,6 +257,26 @@ export default function Home() {
               <p className="chart-caption">
                 UK Official Singles Chart week covering 21 November: <strong>{chartWeekLabel}</strong>
               </p>
+              <div className="duration-setting">
+                <div className="duration-heading">
+                  <label htmlFor="preview-duration">PREVIEW LENGTH</label>
+                  <output htmlFor="preview-duration">{durationSeconds} seconds</output>
+                </div>
+                <input
+                  id="preview-duration"
+                  className="duration-slider"
+                  type="range"
+                  min="5"
+                  max="30"
+                  step="5"
+                  value={durationSeconds}
+                  onChange={(event) => setDurationSeconds(Number(event.target.value))}
+                />
+                <div className="duration-scale" aria-hidden="true">
+                  <span>5 sec</span>
+                  <span>30 sec</span>
+                </div>
+              </div>
             </div>
             <button className="primary-button" onClick={startQuiz}>
               <span className="button-play" aria-hidden="true">▶</span>
@@ -281,7 +312,7 @@ export default function Home() {
                 <h3>Listen closely.</h3>
                 {previewStatus === "loading" && <p className="preview-message">Finding the preview…</p>}
                 {previewUrl && (
-                  <audio className="audio-player" controls preload="none" src={previewUrl}>
+                  <audio ref={audioRef} className="audio-player" controls preload="none" src={previewUrl}>
                     Your browser does not support audio playback.
                   </audio>
                 )}
@@ -323,6 +354,15 @@ export default function Home() {
                 <span className="points-note">1 point per correct song</span>
               </div>
             </form>
+
+            {phase === "playing" && (
+              <div className="game-actions">
+                <span>Skip reveals the answer and stops playback.</span>
+                <button className="skip-button" type="button" onClick={revealAnswer}>
+                  Skip to next track <span aria-hidden="true">→</span>
+                </button>
+              </div>
+            )}
 
             {phase === "reveal" && (
               <div className="reveal-box">
